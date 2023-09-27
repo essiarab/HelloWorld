@@ -1,0 +1,3 @@
+yasser@MINIMUS:/mnt/c/Documents and Settings/essia/Documents/GitHub/HelloWorld$ docker build -t hello-world .
+ docker scout quickview to scan for vulnerabilities
+ docker run -p 8080:80 hello-world to run it
