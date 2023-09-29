@@ -26,6 +26,7 @@ stages:
     # Task-1: Build Docker Image and push to Azure Container Registry ACR
     - task: Docker@2
       inputs:
+        azureSubscription: 'containerregisterHelloworld'
         containerRegistry: 'helloworldyassercontainerregistry'
         repository: 'HelloWorldrepo'
         command: 'buildAndPush'
